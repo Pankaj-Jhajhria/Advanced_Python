@@ -55,5 +55,27 @@ print(aa)
 
 defaultdict(int)        # Grouping data
 
+# DateTime
+import datetime
+print(datetime.datetime.now())
+print(datetime.datetime.today())
+
+# OS
+import os
+print(os.getcwd())
+print(os.listdir())
 
 
+# Json
+import json
+data={"name":"Pankaj","value":42}
+print(json.dumps(data))
+
+
+# Requesties
+import requests
+response =requests.get("https://github.com/Pankaj-Jhajhria")
+print(response)
+
+# itertools
+import itertools
