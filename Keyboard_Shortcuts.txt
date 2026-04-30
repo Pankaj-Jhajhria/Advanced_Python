@@ -1,0 +1,42 @@
+_______
+.ipynb (vs_code)
+_______
+Running Cells :
+_______
+                => Shift + Enter (run current cell + move to next)
+                => Ctrl  + Enter (run current cell)
+                => Alt   + Enter (run current cell + inset new below) (not really useful)
+
+_______
+Adding/Deleting Cells :
+_______
+                =>   A (insert cell above)
+                =>   B (insert cell below)
+                =>   DD (Delete cell)
+                =>   Z  (Undo Delete)
+
+
+_______
+Cell Navigation :
+_______
+                =>  up/down  (move between Cells)
+                =>  Enter    (edit mode (inside cell))
+                =>  Esc      (Command mode (cell-level control))
+
+
+_______
+Changing Cell Type :
+_______
+                => M (Markdown cell)
+                => Y (Code Cell)
+
+
+_______
+Editing & Productivity :
+_______
+                => Ctrl + /  (Command /uncommand Code)
+                => Ctrl + Shift + K  (Delete line)
+                => Alt + up/down  (move line up&down)
+                => Alt + Shift + up/down   (Duplicate line)
+
+
