@@ -79,3 +79,11 @@ print(response)
 
 # itertools
 import itertools
+
+# sys
+import sys
+n=int(input("Enter your age :"))
+if n<18:
+    print("Hey Kid ! ,This is not for you.")
+    sys.exit('ah ! error !')
+print("Tell me how i can help you buddy ??")
