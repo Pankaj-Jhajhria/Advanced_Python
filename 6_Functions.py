@@ -111,6 +111,11 @@ print(func_anno.__defaults__)
 print(dir(power))
 print(help(power))
 
+# to check if iterator
+L=[1,2,3]
+print(dir(L))            # if a variable is iterable (will find out __iter__ in dir(variable))
+print(dir(iter(L)))   # makes an iterator (like x where x=range(10))  (will find __iter__ and __next__)
+
 
 # Lambda function
                     # => lambda function is a small , oneline unnamed function
