@@ -64,6 +64,8 @@ print(datetime.datetime.today())
 import os
 print(os.getcwd())
 print(os.listdir())
+os.mkdir("./Other_Stuff/new_one_using_os")
+
 
 
 # Json

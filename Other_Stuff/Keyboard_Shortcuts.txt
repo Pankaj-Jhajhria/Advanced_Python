@@ -40,3 +40,8 @@ _______
                 => Alt + Shift + up/down   (Duplicate line)
 
 
+_______
+Search
+_______ 
+                => Ctrl + F ( search within a file)
+                => Ctrl + Shift + F ( search within all files)
