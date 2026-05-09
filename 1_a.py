@@ -56,6 +56,7 @@ class my_own_iterator:
     def __iter__(self):
         return self
     def __next__(self):
+        
         if self.iterable.start >=self.iterable.end:
             raise StopIteration
         
@@ -63,6 +64,9 @@ class my_own_iterator:
         self.iterable.start+=self.iterable.step
         return current
     
-for i in my_own_range(12,23,2):
+for i in my_own_range(12,23,1):
     print(i)
+print()
+
     
+my_own_loop(my_own_range(12,23,1))

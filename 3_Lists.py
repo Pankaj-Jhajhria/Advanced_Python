@@ -86,7 +86,7 @@ del List[2]
 print(List)
 
 List3 =List[:2]
-# List3=List3.sort(key=lambda x:len(i) )
+List3.sort(key=lambda x:len(x) )
 print(List3)
 
 
